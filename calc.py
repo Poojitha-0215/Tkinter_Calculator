@@ -20,7 +20,6 @@ entry=tk.Entry(root,font=("segoe UI",20),
                bd=0,justify="right")
 entry.grid(row=0,column=0, columnspan=4, padx=12,pady=12,ipady=10)
 buttons=[
-    "sin","cos","tan",
     "7","8","9","/",
     "4","5","6","*",
     "1","2","3","-",
@@ -46,3 +45,4 @@ tk.Button(root,text="Clear",command=clear,
 .grid(row=r,column=0,columnspan=4,pady=8)
 root.mainloop()
     
+
